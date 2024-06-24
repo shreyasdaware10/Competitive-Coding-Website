@@ -101,6 +101,7 @@ const OutputContainer = styled.div`
   color: ${({ theme }) => theme.text};
   white-space: pre-wrap;
   word-break: break-word;
+  min-height: 50px;
   max-height: 300px;
   overflow-y: auto;
 `;
